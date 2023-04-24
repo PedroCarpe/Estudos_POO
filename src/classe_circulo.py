@@ -17,4 +17,4 @@ class Circulo():
         return area;
 
     def __str__(self):
-        return str(f'__Dados_do_Círculo__\n\nRaio:{self.raio} Diâmetro:{self.diametro} \nPerímetro: {self.perimetro():.3f}\nÁrea: {self.area():.3f}')
+        return str(f'\n__Dados_do_Círculo__\n\nRaio:{self.raio} Diâmetro:{self.diametro} \nPerímetro: {self.perimetro():.3f}\nÁrea: {self.area():.3f}')
